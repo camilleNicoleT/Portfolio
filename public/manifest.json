@@ -1,0 +1,12 @@
+{
+  "short_name": "CodeCamille",
+  "name": "Camille's portfolio",
+  "icons": [
+  
+   
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#e0c1b3ff",
+  "background_color": "#d89a9eff"
+}
