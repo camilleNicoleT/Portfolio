@@ -1,0 +1,20 @@
+{
+  "short_name": "CodeCamille",
+  "name": "Camille's portfolio",
+  "icons": [
+    {
+      "src": "./assets/images/linkedIn.jpeg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./assets/images/githubIcon.jpeg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }   
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#e0c1b3ff",
+  "background_color": "#d89a9eff"
+}

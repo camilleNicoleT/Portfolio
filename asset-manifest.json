@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ae27f3ec.css",
+    "main.js": "/Portfolio/static/js/main.35364063.js",
+    "static/media/indubitably.png": "/Portfolio/static/media/indubitably.323fe4a6d10328cbdc84.png",
+    "static/media/headshot.jpg": "/Portfolio/static/media/headshot.0a95a843c611168341bf.jpg",
+    "static/media/techblog.png": "/Portfolio/static/media/techblog.cd2ecf0ae35a774fd3fe.png",
+    "static/media/makimaku.png": "/Portfolio/static/media/makimaku.8adc551f1d40fad2e0c4.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.40fda37e38ee30a6a4ec.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.ae27f3ec.css.map": "/Portfolio/static/css/main.ae27f3ec.css.map",
+    "main.35364063.js.map": "/Portfolio/static/js/main.35364063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae27f3ec.css",
+    "static/js/main.35364063.js"
+  ]
+}
