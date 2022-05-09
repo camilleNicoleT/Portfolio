@@ -3,8 +3,9 @@ import React from 'react';
 //We're extracting the key value pairs from props by giving the href it's current page value
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <header class='rounded-xl shadow border p-5 w-100 navbar'>
+    <ul className="nav nav-tabs space-between">
+      <li className="nav-item ml-3">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -14,8 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      </li>
-      <li className="nav-item">
+    
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -26,9 +26,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           About
         </a>
-      </li>
-     
-      <li className="nav-item">
         <a
           href="#contact"
           // Determine whether the Contact nav link is active or not
@@ -38,8 +35,18 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
+        <a
+          href="#resume"
+          // Determine whether the Contact nav link is active or not
+
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
       </li>
     </ul>
+   </header>
   );
 }
 

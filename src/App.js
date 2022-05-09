@@ -11,25 +11,6 @@ import PortfolioContainer from "./components/PortfolioContainer";
 
 
 const App = () => <PortfolioContainer />;
-// function App() {
- 
-//   return (
-//     <div >
-//       <NavTabs />
-//         <Home />
-//         <About />
-//         <Contact />
-      
-//       {/* <main>
-//   <>
-//     <About></About>
-//   </>
-//  (
-//     <ContactForm></ContactForm>
-//   )
-//       </main> */}
-//     </div>
-//   );
-// }
+
 
 export default App;
