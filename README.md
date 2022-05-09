@@ -7,10 +7,10 @@ To showcase my work I have created an application with informaiton about myself,
 ## Table of Contents: 
    - [Usage](#usage) 
    - [Questions](#Questions) 
-   - [Technologies Used](#technologies used)
+   - [Technologies](#technologiesused)
 
 
-## Technologies Used
+## Technologies
 React
 JavaScript
 Tailwind
