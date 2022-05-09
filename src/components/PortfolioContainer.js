@@ -28,13 +28,12 @@ export default function PortfolioContainer() {
 
   return (
     <div className="container p-5 m-8">
-      <div>
-
       {/* // currentPage handlePageChange passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // call the renderPage method */}
+      <main>
       {renderPage()}
-    </div>
+    </main>
     <Footer />
     </div>
   );

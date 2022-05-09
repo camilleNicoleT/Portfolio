@@ -34,10 +34,10 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section className='mt-10'>
       <h1 data-testid="h1tag">Contact me</h1>
       <p>Or email me at camilleht@gmail.com</p>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" className="mb-50"onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
