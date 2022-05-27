@@ -1,13 +1,15 @@
 # Code With Camille
+
+![Screen Shot 2022-05-09 at 7 23 39 PM](https://user-images.githubusercontent.com/94029792/167514395-a25de773-8250-46e2-b6eb-33fc7cdea6ad.png)
 Deployed app: https://camillenicolet.github.io/Portfolio/
 
 ## Description
-To showcase my work I have created an application with information about myself, a portfolio and "contact me" form. 
+To showcase my work I have created an application with informaiton about myself, a portfolio and "contact me" form. 
 
 ## Table of Contents: 
    - [Usage](#usage) 
    - [Questions](#Questions) 
-   - [Technologies](#technologies)
+   - [Technologies](#technologiesused)
 
 
 ## Technologies
