@@ -1,13 +1,13 @@
 # Code With Camille
-
+Deployed app: https://camillenicolet.github.io/Portfolio/
 
 ## Description
-To showcase my work I have created an application with informaiton about myself, a portfolio and "contact me" form. 
+To showcase my work I have created an application with information about myself, a portfolio and "contact me" form. 
 
 ## Table of Contents: 
    - [Usage](#usage) 
    - [Questions](#Questions) 
-   - [Technologies](#technologiesused)
+   - [Technologies](#technologies)
 
 
 ## Technologies

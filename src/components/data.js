@@ -1,9 +1,18 @@
 import firstImage from "../assets/images/indubitably.png";
 import secondImage from '../assets/images/techblog.png';
-import thirdImage from '../assets/images/makimaku.png'
+import thirdImage from '../assets/images/makimaku.png';
+import fourthImage from '.../assets/images/StickerBook.png';
 
 
 export const projects = [
+  {
+    title: 'Sticker Book',
+    subtitle: 'MERN, GraphQL, Tailwind',
+    description:
+      'Track your goals and encourage friends with digital stickers',
+    image: fourthImage,
+    link: "https://sticker-book.herokuapp.com/login"
+  },
     {
       title: 'Indubitably',
       subtitle: 'Interactive Full-Stack',

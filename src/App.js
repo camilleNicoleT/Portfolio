@@ -10,7 +10,8 @@ import PortfolioContainer from "./components/PortfolioContainer";
 // //import ContactForm from './components/pages/Contact';
 
 
-const App = () => <PortfolioContainer />;
+const App = () => 
+<PortfolioContainer />;
 
 
 export default App;
