@@ -4,7 +4,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header class='rounded-xl shadow border p-5 w-100 navbar'>
-    <ul className="nav nav-tabs space-between">
+    <ul className="nav nav-tabs p-5 space-between">
       <li className="nav-item ml-3">
         <a
           href="#home"

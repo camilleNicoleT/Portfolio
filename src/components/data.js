@@ -1,7 +1,7 @@
 import firstImage from "../assets/images/indubitably.png";
 import secondImage from '../assets/images/techblog.png';
 import thirdImage from '../assets/images/makimaku.png';
-import fourthImage from '.../assets/images/StickerBook.png';
+import fourthImage from '../assets/images/StickerBook.png';
 
 
 export const projects = [
