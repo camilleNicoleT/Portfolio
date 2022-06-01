@@ -3,19 +3,20 @@ import React from 'react';
 //We're extracting the key value pairs from props by giving the href it's current page value
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header class='rounded-xl shadow border p-5 w-100 navbar'>
-    <ul className="nav nav-tabs p-5 space-between">
-      <li className="nav-item ml-3">
+    <header class='rounded-xl flex justify-between shadow border m-4 p-5 w-100 navbar'>
+    <ul className="nav nav-tabs p-5 m-4 flex justify-between">
+      <li className="nav-item ml-5 flex justify-between">
         <a
           href="#home"
+          
           onClick={() => handlePageChange('Home')}
       
           //this is a Ternary operator that is checking to see if the Home nav-link is active
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} class="p-5"
         >
           Home
         </a>
-    
+     
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
