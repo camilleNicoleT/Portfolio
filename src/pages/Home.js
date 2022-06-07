@@ -13,29 +13,34 @@ export default function Home() {
             Projects
           </h1>
            </div>
-        <div className="flex flex-wrap m-5">
+        <div className="flex flex-col col-4 m-5">
           {projects.map((project) => (
-                      <a
-              href={project.link}
+            <div>
+                      <div
               key={project.image}
-              className="m:w-1/2 w-100 p-4 h-100 ">
+              className="m:w-1/2 w-100 p-2 h-100 "> </div>
               <div className="flex relative">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-top"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+               
+                <div className="px-5 py-2 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h4 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
-                  </h4>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
+                  </h4> 
+                  <a  href={project.link} className="title-font text-lg font-medium text-white mb-2">
+                 <h1>{project.title}</h1>   
+                  </a>
                   <p className="leading-relaxed">{project.description}</p>
+                  <a className="title-font text-lg font-medium text-white mb-3" href={project.github}> 
+                 <h6> GitHub Repository</h6>
+                  </a>
                 </div>
               </div>
-            </a>
+              </div>
+            
           ))}
         </div>
       </div>
