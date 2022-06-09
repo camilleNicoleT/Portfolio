@@ -6,14 +6,14 @@ export default function Home() {
 
   return (
     <section id="projects" className="body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container flex flex-wrap px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-10">
         <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-0 text-light">
             Projects
           </h1>
            </div>
-        <div className="flex flex-col col-4 m-5">
+        <div className="flex-1 flex-col col-4 m-5">
           {projects.map((project) => (
             <div>
                       <div
@@ -22,7 +22,7 @@ export default function Home() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-top"
+                  className="absolute inset-0 w-full h-full flex-initial object-cover object-top"
                   src={project.image}
                 />
                
@@ -30,7 +30,7 @@ export default function Home() {
                   <h4 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h4> 
-                  <a  href={project.link} className="title-font text-lg font-medium text-white mb-2">
+                  <a  href={project.link} className="title-font flex text-lg font-medium text-white mb-2">
                  <h1>{project.title}</h1>   
                   </a>
                   <p className="leading-relaxed">{project.description}</p>

@@ -4,8 +4,8 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header class='rounded-xl flex justify-between shadow border m-4 p-5 w-100 navbar'>
-    <ul className="nav nav-tabs p-5 m-4 flex justify-between">
-      <li className="nav-item ml-5 flex justify-center">
+    <ul className="nav nav-tabs p-5 m-4 flex flex-wrap justify-between">
+      <li className="nav-item ml-5 flex flex-wrap justify-center">
         <a 
           href="#home"
           
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
      </li>
-     <li className="nav-item ml-5 flex justify-center">
+     <li className="nav-item ml-5 flex flex-wrap justify-center">
         <a class="p-5"
           href="#about"
           onClick={() => handlePageChange('About')}
