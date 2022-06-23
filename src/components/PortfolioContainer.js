@@ -6,6 +6,7 @@ import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 import Footer from '../pages/Footer';
 
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
   const pdf = "assets/resume.pdf";
@@ -37,4 +38,5 @@ export default function PortfolioContainer() {
     <Footer />
     </div>
   );
+
 }

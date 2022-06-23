@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../utils/helpers';
 
 function ContactForm() {
@@ -9,12 +8,25 @@ function ContactForm() {
   const { name, email, message } = formState;
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
-    }
+    setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:3000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
   };
+  
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -55,9 +67,10 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit" className='btn'>Submit</button>
+        <button type="submit" className='btn'>{status}</button>
       </form>
     </section>
+
   );
 }
 
