@@ -55,6 +55,14 @@ body {
   min-height: 100%;
 }
 
+.about {
+  font-size: 150%;
+}
+
+.AboutTitle {
+  text-align: right;
+  margin-right: 150px;
+}
 
 h1,
 h2,
@@ -197,12 +205,10 @@ textarea {
 }
 
 .container {
-  width: 95%;
-  max-width: 1200px;
+  min-width: 100%;
   min-height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -50px;
 }
 
 .flex-row {
@@ -323,12 +329,17 @@ a {
 	
 }
 
+#email {
+  flex-wrap: wrap;
+  justify-content: left;
+
+}
 .navActive {
   color: var(--secondary);
 }
 
 .footer {
-	position: relative;
+	position: absolute;
 	margin-bottom: 0;
 	width: 100%;
 	height: 50px;

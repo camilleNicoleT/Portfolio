@@ -1,49 +1,20 @@
-import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
-import { projects } from "../components/data";
+import React from 'react'
+import coverImage from "../assets/cover/headshot.jpg";
 
-export default function Home() {
+function Home() {
 
   return (
-    <section id="projects" className="body-font">
-      <div className="container flex flex-wrap px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-10">
-        <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-0 text-light">
-            Projects
-          </h1>
-           </div>
-        <div className="flex-1 flex-col col-4 m-5">
-          {projects.map((project) => (
-            <div>
-                      <div
-              key={project.image}
-              className="m:w-1/2 w-100 p-2 h-100 "> </div>
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full flex-initial object-cover object-top"
-                  src={project.image}
-                />
-               
-                <div className="px-5 py-2 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h4 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h4> 
-                  <a  href={project.link} className="title-font flex text-lg font-medium text-white mb-2">
-                 <h1>{project.title}</h1>   
-                  </a>
-                  <p className="leading-relaxed">{project.description}</p>
-                  <a className="title-font text-lg font-medium text-white mb-3" href={project.github}> 
-                 <h6> GitHub Repository</h6>
-                  </a>
-                </div>
-              </div>
-              </div>
-            
-          ))}
-        </div>
+    <section className="my-1" >
+      <h1 id="home" className='AboutTitle' >Hello! My name is Camille Hansen-Theobald</h1>
+      <div className='flex'>
+      <img src={coverImage} className="my-2" style={{ width: "45%" }} alt="Camille" />
+      <h3 className='about flex mt-10 ml-3' >
+        Thank you for taking a peak at my work! I'm a Full Stack web developer leveraging a background in higher education and performing arts to build engaging user experiences. I earned a certificate in full stack development from Columbia's Engineering Coding Boot Camp, with newly developed skills in JavaScript, Node.js, MongoDB, GraphQL and React. 
+        Known as an inventive problem solver excited to develop intuitive apps, with a focus on mobile-first design and development. With each project, I hope to attract my audience with a pleasant user experience. I’m excited to use my skills as a valuable team-member, at a company I believe in, to build better experiences.
+      </h3>
       </div>
     </section>
-)}
+  )
+}
 
+export default Home

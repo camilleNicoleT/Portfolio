@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
+import Projects from '../pages/Projects';
 import Home from '../pages/Home';
-import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 import Footer from '../pages/Footer';
@@ -14,8 +14,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     if (currentPage === 'Resume') {
       return <Resume pdf={pdf}/>;
@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="container p-5 m-8">
+    <div className="container">
       {/* // currentPage handlePageChange passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // call the renderPage method */}
