@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8c37abab.css",
-    "main.js": "/Portfolio/static/js/main.b817400a.js",
+    "main.css": "/Portfolio/static/css/main.366cf804.css",
+    "main.js": "/Portfolio/static/js/main.e110b87e.js",
     "static/media/indubitably.png": "/Portfolio/static/media/indubitably.323fe4a6d10328cbdc84.png",
     "static/media/StickerBook.png": "/Portfolio/static/media/StickerBook.7f4368887fdc2e7bb2ed.png",
     "static/media/headshot.jpg": "/Portfolio/static/media/headshot.0a95a843c611168341bf.jpg",
@@ -10,11 +10,11 @@
     "static/media/UpdatedResume_CamilleHansenTheobald.pdf": "/Portfolio/static/media/UpdatedResume_CamilleHansenTheobald.6c443115ce00d93c8c39.pdf",
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.bb933d6809d6410387a0.png",
     "index.html": "/Portfolio/index.html",
-    "main.8c37abab.css.map": "/Portfolio/static/css/main.8c37abab.css.map",
-    "main.b817400a.js.map": "/Portfolio/static/js/main.b817400a.js.map"
+    "main.366cf804.css.map": "/Portfolio/static/css/main.366cf804.css.map",
+    "main.e110b87e.js.map": "/Portfolio/static/js/main.e110b87e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c37abab.css",
-    "static/js/main.b817400a.js"
+    "static/css/main.366cf804.css",
+    "static/js/main.e110b87e.js"
   ]
 }
